@@ -1,8 +1,7 @@
 const express = require("express");
 const router=express.Router()
+const {generateImage}=require('../Controller/openAiController')
 
-router.post('/generateImage',(req,res)=>{
-    res.send("Image generated")
-})
+router.post('/generateImage',generateImage)
 
 module.exports=router

@@ -1,6 +1,6 @@
 # Image Generator
 
-This project is a simple tool for generating images with custom text and colors, powered by the OpenAI API. It is built using Node.js and the Canvas library.
+This project is a simple tool for generating images with custom text and colors, powered by the OpenAI API. It is built using Node.js.
 
 Features:
 - Generate images with custom text and color
